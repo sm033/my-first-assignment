@@ -1,0 +1,90 @@
+/* common shared style */
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+/*nav related style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(245, 234, 234);
+    
+}
+.logo{
+    margin-left: 150px;
+    font-size: 23px;
+    font-weight: 800;
+}
+nav span{
+    color: rgb(246, 103, 127);
+}
+.menu-items {
+    display: flex;
+    margin-right: 150px;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 60px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #666;
+    font-size: 17px;
+}
+/* banner related styles */
+ 
+.banner-container{
+    display: flex;
+    width: 1920px;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text{
+    margin-left: 240px;
+}
+.banner-headline{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+    margin-bottom: 0px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    margin: 32px 0px;
+}
+.btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    cursor: pointer;
+    }
+    .btn:hover{
+        color: #f3e2d6;
+    }
+.banner-image{
+    width: 635px;
+    height: 800px;
+    margin: 50px 240px 0px 0px;
+
+
+    }
+
+
+ 
+
+   
